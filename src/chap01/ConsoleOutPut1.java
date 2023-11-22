@@ -88,6 +88,19 @@ public class ConsoleOutPut1 {	//	class
         //  println     문자열과 별수를 출력시 코드가 길어짐
         System.out.println("오늘 " + str + " : " + str2 + "\n변수 a + b = " + (a + b) + " \n실수 c = " + c);
 
+        //  변수 선언
+        String st1 = "오늘 ";
+        String st2 = "날씨는 ";
+        String st3 = "맑습니다.";
+
+        //  printf();
+        System.out.printf("%s%s%s", st1, st2, st3);
+
+        System.out.println();
+        //  println();
+        System.out.println(st1 + st2 + st3);
+
+
 
     }
     //	System.out.println("Hello World!); <== 오류
