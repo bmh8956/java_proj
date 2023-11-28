@@ -26,6 +26,7 @@ public class Do_While_Statement2 {
 						System.out.printf("%d * %d = %d \t", i , j , i * j);						
 					}
 					System.out.println();
+					
 				}
 				
 				
