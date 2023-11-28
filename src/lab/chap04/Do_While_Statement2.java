@@ -15,7 +15,7 @@ public class Do_While_Statement2 {
 			System.out.println("4  10개의 정수를 입력받아 그 수들 중 짝수의 개수가 몇 개인지 출력하는 프로그램 ");
 			System.out.println("5. 프로그램 종료 ");			
 			System.out.println("========================================================");
-			System.out.println("위 의 내용을 정수로 입력 하세요 >>>>");
+			System.out.println("위 의 내용을 정수로 입력 하세요 >>>");
 			a = sc.nextInt(); 
 			
 			if (a == 1) {
@@ -26,7 +26,6 @@ public class Do_While_Statement2 {
 						System.out.printf("%d * %d = %d \t", i , j , i * j);						
 					}
 					System.out.println();
-					
 				}
 				
 				
